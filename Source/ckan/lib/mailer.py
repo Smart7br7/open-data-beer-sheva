@@ -79,10 +79,11 @@ def _mail_recipient(recipient_name, recipient_email,
                 raise MailerException("SMTP server does not support STARTTLS")
 
         # If 'smtp.user' is in CKAN config, try to login to SMTP server.
-        if smtp_user:
-            assert smtp_password, ("If smtp.user is configured then "
-                                   "smtp.password must be configured as well.")
-            smtp_connection.login(smtp_user, smtp_password)
+        #### next 4 lines commented in order not to connect using username and password, that way we're able to send the email using BR7 outlook server
+		#if smtp_user:
+        #    assert smtp_password, ("If smtp.user is configured then "
+        #                           "smtp.password must be configured as well.")
+        #    smtp_connection.login(smtp_user, smtp_password)
 
         smtp_connection.sendmail(mail_from, [recipient_email], msg.as_string())
         log.info("Sent email to {0}".format(recipient_email))

@@ -1,0 +1,191 @@
+body{
+	direction:rtl;
+}
+.search-form .search-input.search-giant button {
+    margin-top: -15px;
+    left: 15px;
+    height: 30px;
+    right: auto;
+}
+.lang-select label, .lang-select select, .lang-select .lang-container {
+    float: right;
+}
+
+@media only screen and (min-width: 960px) {
+	.padded-header{
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+}
+.masthead .nav-collapse {
+    padding-top: 35px;
+}
+.section.site-search.simple-input{
+	float:left;
+}
+.masthead .section{
+	float:right;
+}
+
+.masthead .nav-collapse{
+	width:76%;
+}
+
+.simple-input .field .btn-search{
+	left:0;
+	right:auto;
+}
+
+.homepage.layout-3{
+	background: #cffaff;
+}
+
+[role="main"]{
+	background: none;
+}
+
+.hero {
+    background: url("../../../base/images/background-tile.png");
+    background-size: contain;
+}
+
+/*breadcrumbs*/.toolbar .breadcrumb,
+/*tags homepage*/.homepage .module-search .tags h3, 
+/*new group add*/.form-horizontal .control-label,
+/*Dataset page(followers) */.context-info .nums dl
+{
+	float: right;
+}
+
+/*New dataset-group-organization*/.control-full input
+{
+	float: left;
+}
+
+/*Groups-organization-datasets page*/.media-item {
+	margin: 15px 15px 0 0;
+	
+}
+
+/*Dataset page table*/ .table th{
+	text-align:right;
+}
+
+/*Dataset Page*/
+.context-info .nums dl dd{
+	margin-right:10px;
+}
+
+/*Item list page*/
+.media-item .media-edit{
+	left: 15px;
+	right: auto;
+}
+
+/*Search results title align*/
+.search-form h2 {
+	text-align: left;
+}
+
+/*Navigation icons at sidebar*/
+.nav-facet .nav-item>a:hover:after, .nav-facet .nav-item.active>a:after
+{
+	left:5px;
+	right:auto;
+}
+
+/*Item addition page slug-url in English*/
+.slug-preview
+{
+	direction:ltr;
+}
+
+/*new Dataset page*/
+.stages li {
+    float: right;
+}
+.stages li .highlight {
+    text-align: right;
+}
+.stages li:before{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/*Preview of GEO-Json*/
+.loading{
+    left:auto;
+    right:-20px;
+}
+
+/*Tags x button on new dataset page*/
+.select2-search-choice-close{
+    right:auto;
+}
+
+/*Bread crumbs styling and color*/
+.toolbar .breadcrumb a {
+	color: #fff;
+}
+.breadcrumb>li {
+	display: inline-block;
+	text-shadow: none;
+}
+
+/*Header Design*/
+.masthead {
+    color: #ffffff;
+    background: #f7fdff url(../../../base/images/bg.png);
+}
+
+.masthead .nav>li>a, .masthead .nav>li>a:focus, .masthead .nav>li>a:hover, .masthead .nav>.active>a, .masthead .nav>.active>a:hover, .masthead .nav>.active>a:focus {
+    color: #003647;
+    font-weight: bold;
+}
+
+.masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
+    color: #fff;
+}
+
+/*Review button in dataset page*/
+.resource-item .btn-group {
+	left: 54px;
+	right: auto;
+}
+
+/*Mainpage Welcome Text Design*/
+header p{
+	font-size: 1.4em !important;
+	line-height: 1.4;
+}
+
+/*GeoJson details bubble*/
+#map .table-container {
+    height: 300px;
+    overflow-x: hidden;
+}
+
+/* text aligment in the bubble*/
+.table-bordered tbody tr td{
+	text-align:right;
+}
+
+.navbar .nav>li {
+    float: right;
+}
+
+
+a:focus{
+	border: 2px black solid !important;
+}
+
+
+@media only screen and (max-width: 959px) {
+	.masthead{
+		padding-top: 10px;
+	}
+	
+	.masthead .nav-collapse {
+		padding-top: 10px;
+	}
+}

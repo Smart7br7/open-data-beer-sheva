@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="django" name="Django">
+      <configuration>
+        <option name="rootFolder" value="$MODULE_DIR$/migration" />
+        <option name="settingsModule" value="settings.py" />
+        <option name="manageScript" value="manage.py" />
+        <option name="environment" value="&lt;map/&gt;" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Django" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/public/base/test" />
+        <option value="$MODULE_DIR$/public/base/test/primer" />
+        <option value="$MODULE_DIR$/public/base/vendor/bootstrap/less/tests" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/tag" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/home" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/home/snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/user" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/user/snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/admin" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/group" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/group/snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/tests" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/macros" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/package" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/package/snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/revision" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/revision/snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/snippets/context" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/dataviewer" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/dataviewer/snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/development" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/development/snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/organization" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/organization/snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/ajax_snippets" />
+        <option value="$MODULE_DIR$/addition/toKeep/templates/activity_streams" />
+        <option value="$MODULE_DIR$/templates" />
+        <option value="$MODULE_DIR$/templates/tag" />
+        <option value="$MODULE_DIR$/templates/home" />
+        <option value="$MODULE_DIR$/templates/home/snippets" />
+        <option value="$MODULE_DIR$/templates/user" />
+        <option value="$MODULE_DIR$/templates/user/snippets" />
+        <option value="$MODULE_DIR$/templates/admin" />
+        <option value="$MODULE_DIR$/templates/group" />
+        <option value="$MODULE_DIR$/templates/group/snippets" />
+        <option value="$MODULE_DIR$/templates/tests" />
+        <option value="$MODULE_DIR$/templates/macros" />
+        <option value="$MODULE_DIR$/templates/package" />
+        <option value="$MODULE_DIR$/templates/package/snippets" />
+        <option value="$MODULE_DIR$/templates/revision" />
+        <option value="$MODULE_DIR$/templates/revision/snippets" />
+        <option value="$MODULE_DIR$/templates/snippets" />
+        <option value="$MODULE_DIR$/templates/snippets/context" />
+        <option value="$MODULE_DIR$/templates/dataviewer" />
+        <option value="$MODULE_DIR$/templates/dataviewer/snippets" />
+        <option value="$MODULE_DIR$/templates/development" />
+        <option value="$MODULE_DIR$/templates/development/snippets" />
+        <option value="$MODULE_DIR$/templates/organization" />
+        <option value="$MODULE_DIR$/templates/organization/snippets" />
+        <option value="$MODULE_DIR$/templates/ajax_snippets" />
+        <option value="$MODULE_DIR$/templates/activity_streams" />
+      </list>
+    </option>
+  </component>
+</module>

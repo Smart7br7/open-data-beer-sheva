@@ -8,16 +8,20 @@
 <div role="main">
   <div class="container">
     <div class="row row2">
-      <div class="span6 col2">
+      <div class="span12">
         {% block promoted %}
           {% snippet 'home/snippets/promoted.html' %}
         {% endblock %}
+	<br/>
       </div>
-      <div class="span6 col1">
-        {% block stats %}
-          {% snippet 'home/snippets/stats.html' %}
-        {% endblock %}
+      <div class="span6">
+	<img src="../../../base/images/city-map.png" alt="המפה של העיר באר שבע על כל השכבות"/>	
       </div>
+      <div class="span6">
+	<img src="../../../base/images/home/accessibility.png" alt="תמונה עבור הנגישות העירונית של מבנים ובתי העסק" style="width:100px; height:100px;" /><h3 style="display:inline-block; margin-right:10px;"> מפת נגישות עירונית של מבנים ובתי עסק</h3><br/>
+	<img src="../../../base/images/home/cycles.png" alt="תמונה עבור המידע על התשתיות המקומיות" style="width:100px;height:100px; margin-top:10px;" /><h3 style="display:inline-block; margin-top:10px; margin-right:10px;">מידע על התשתיות המקומיות</h3><br/>
+        <img src="../../../base/images/home/tower.png" alt="תמונה עבור מידע על כל מוסדות החינוך בעיר" style="width:100px;height:100px; margin-top:10px;" /><h3 style="display:inline-block; margin-top:10px; margin-right:10px;">מידע על כל מוסדות החינוך בעיר</h3><br/>
+       </div>
     </div>
   </div>
 </div>

@@ -78,7 +78,7 @@
       <span class="icon-bar"></span>
     </button>
     {# The .header-image class hides the main text and uses image replacement for the title #}
-    <hgroup class="{{ g.header_class }} pull-left">
+    <hgroup class="{{ g.header_class }} pull-right padded-header">
 
       {% block header_logo %}
         {% if g.site_logo %}
@@ -93,34 +93,42 @@
 
     </hgroup>
 
-    <div class="nav-collapse collapse">
+    <div class="nav-collapse collapse padded-header">
 
       {% block header_site_navigation %}
         <nav class="section navigation">
-          <ul class="nav nav-pills">
+		<ul class="nav nav-pills">
+			  <li><a href="/dataset">מאגרי מידע</a></li>
+			  <li><a href="/pages/faq">שאלות ותשובות</a></li>
+			  <li><a href="/organization">ארגונים</a></li>
+              <li><a href="/about">אודות</a></li>            
+              <li><a href="/contact">צרו קשר</a></li>            
+          </ul>
+          <!--<ul class="nav nav-pills">
             {% block header_site_navigation_tabs %}
               {{ h.build_nav_main(
                 ('search', _('Datasets')),
-                ('organizations_index', _('Organizations')),
+				('about', _('About')),
+				('organizations_index', _('Organizations')),
                 ('group_index', _('Groups')),
-                ('about', _('About'))
+				
               ) }}
             {% endblock %}
-          </ul>
+          </ul>-->
         </nav>
       {% endblock %}
 
       {% block header_site_search %}
-        <form class="section site-search simple-input" action="{% url_for controller='package', action='search' %}" method="get">
+        <!--<form class="section site-search simple-input" action="{% url_for controller='package', action='search' %}" method="get">
           <div class="field">
             <label for="field-sitewide-search">{% block header_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
             <input id="field-sitewide-search" type="text" name="q" placeholder="{{ _('Search') }}" />
             <button class="btn-search" type="submit"><i class="icon-search"></i></button>
           </div>
-        </form>
+        </form>-->
       {% endblock %}
 
     </div>
   </div>
 </header>
-{% endblock %}
+{% endblock %} 
