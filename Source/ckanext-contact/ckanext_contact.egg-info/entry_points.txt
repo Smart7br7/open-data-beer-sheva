@@ -1,0 +1,4 @@
+
+    [ckan.plugins]
+    	contact=ckanext.contact.plugin:ContactPlugin
+	

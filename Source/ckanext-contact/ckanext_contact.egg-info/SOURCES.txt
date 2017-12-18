@@ -1,0 +1,14 @@
+ckanext/__init__.py
+ckanext/contact/__init__.py
+ckanext/contact/auth.py
+ckanext/contact/interfaces.py
+ckanext/contact/plugin.py
+ckanext/contact/controllers/__init__.py
+ckanext/contact/controllers/contact.py
+ckanext_contact.egg-info/PKG-INFO
+ckanext_contact.egg-info/SOURCES.txt
+ckanext_contact.egg-info/dependency_links.txt
+ckanext_contact.egg-info/entry_points.txt
+ckanext_contact.egg-info/namespace_packages.txt
+ckanext_contact.egg-info/not-zip-safe
+ckanext_contact.egg-info/top_level.txt
