@@ -1,0 +1,34 @@
+structure csv2xml {
+    type separated ,
+    header all
+    output xml
+    record data {
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+        field *
+
+    }
+}
+
+output xml {
+    file_header "<?xml version=\"1.0\" encoding=\"OTF-8\"?>\n"
+    data "<%n>%t</%n>\n"
+    record_header "<%r>\n"
+    record_trailer "</%r>\n"
+    indent " "
+}

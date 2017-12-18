@@ -1,0 +1,8 @@
+insert 
+
+import sys  
+reload(sys)  
+sys.setdefaultencoding('utf-8')
+
+to 
+/usr/lib/ckan/default/bin/src/ckanext-pages/ckanext/pages/plugin.py
